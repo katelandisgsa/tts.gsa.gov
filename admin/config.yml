@@ -92,7 +92,7 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Page Link, name: permalink, widget: string}
       - {label: Tags, name: tags, widget: string}
-      - {label: Job State, name: state, widget: string}
+      - {label: Job State, name: state, widget: "select", options: ["closed", "open", "upcoming"]}
       - {label: Job Post Type, name: job_post_type, widget: string}
       - {label: Role Name, name: role_name, hint: "Required for upcoming", widget: string}
       - {label: Open Date, name: opens, hint: "Required for upcoming", widget: string}
@@ -114,5 +114,5 @@ collections:
       - {label: OHRM Contact Name, name: ohrm_contact_name, hint: "Required for open", widget: string}
       - {label: Bargaining Unit, name: bargaining_unit, hint: "Required for open", widget: string}
       - {label: Promotion Potential, name: promotion_potential, hint: "Required for open", widget: number}
-      - {label: Supervisory Status, name: supervisory_status, hint: "Required for open", widget: string}
+      - {label: Supervisory Status, name: supervisory_status, hint: "Required for open", widget: "select", options: ["no", "yes"]}
       - {label: "Body", name: "body", widget: "markdown"}
