@@ -27,7 +27,7 @@ services:
       tools and spread best practices that work across programs to support a
       simpler, less burdensome experience for low-income individuals and
       families.
-  - name: PIF
+  - name: Presidential Innovation Fellows
     link: https://pif.gov
     link_alt_text: link to pif.gov
     logo: _img/People_PIF.png
@@ -35,7 +35,7 @@ services:
     category: people
     description: A program that pairs top technologists with civil-servants to spend
       12 months tackling some of our nation’s biggest challenges.
-  - name: DAP
+  - name: Digital Analytics Program
     link: https://digital.gov/guides/dap/
     link_alt_text: link to DAP website
     logo: _img/Product_DAP.png
@@ -186,11 +186,11 @@ services:
     category: products
     description: Helping agencies meet the requirements of the Federal Source Code
       Policy and providing a platform to make federal code publicly available.
-  - name: Digital Corps
+  - name: U.S. Digital Corps
     link: https://digitalcorps.gsa.gov/
     link_alt_text: link to Digital Corps homepage
     logo: _img/digitalcorps_logo-alt.svg
-    logo_alt_text: Digital Corps
+    logo_alt_text: U.S. Digital Corps
     category: people
     description: Fellowship program for early-career technologists to launch
       impactful careers in public service and create a more effective, equitable

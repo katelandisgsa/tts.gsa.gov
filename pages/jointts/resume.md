@@ -1,5 +1,5 @@
 ---
-title: Preparing your resume
+title: Preparing your resume - TTS
 layout: layouts/page
 permalink: join/resume/
 
@@ -29,13 +29,9 @@ subnav:
 ---
 
 
-Your resume may need revision to ensure you’re positioning yourself to
-make it through the initial steps of the government hiring process.
+Your resume may need revision to ensure you’re positioning yourself to make it through the initial steps of the government hiring process.
 
-There is no such thing as too much information when preparing your
-resume, which may be several pages long and should include detailed
-information about the jobs you’ve held, your responsibilities, and what
-you accomplished.
+There is no such thing as too much information when preparing your resume, which may be several pages long and should include detailed information about the jobs you’ve held, your responsibilities, and what you accomplished.
 
 This is an [example](https://handbook.18f.gov/resume/) of what your resume might look like for a position with TTS.
 

@@ -1,5 +1,5 @@
 ---
-title: About the Direct Hire Authority
+title: About the direct hire authority - TTS
 layout: layouts/page
 permalink: join/about-the-dha/
 
