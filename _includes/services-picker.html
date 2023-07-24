@@ -1,7 +1,7 @@
 <section id="service-category-picker">
   <ul class="usa-card-group">
       <li class="usa-card tablet:grid-col-4">
-          <div class="usa-card__container">
+          <div {% if page_data.url == '/services/products/' %} class="usa-card__container service_active"{% endif %} class="usa-card__container">
               <div class="usa-card__header">
                   <h2 class="usa-card__heading">Products</h2>
               </div>
@@ -16,7 +16,7 @@
           </div>
       </li>
       <li class="usa-card tablet:grid-col-4">
-          <div class="usa-card__container">
+          <div {% if page_data.url == '/services/platforms/' %} class="usa-card__container service_active"{% endif %} class="usa-card__container">
               <div class="usa-card__header">
                   <h2 class="usa-card__heading">Platforms</h2>
               </div>
@@ -31,7 +31,7 @@
           </div>
       </li>
       <li class="usa-card tablet:grid-col-4">
-          <div class="usa-card__container">
+          <div {% if page_data.url == '/services/people/' %} class="usa-card__container service_active"{% endif %} class="usa-card__container">
               <div class="usa-card__header">
                   <h2 class="usa-card__heading">People</h2>
               </div>

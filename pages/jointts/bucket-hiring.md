@@ -1,5 +1,7 @@
 ---
 title: About the direct hire authority - TTS
+title-header: About the direct hire authority
+description: Learn more about Direct Hire Authority (DHA), which TTS uses in order to have more flexibility in hiring for technical positions.
 layout: layouts/page
 permalink: join/about-the-dha/
 

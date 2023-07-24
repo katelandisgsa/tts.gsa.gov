@@ -1,5 +1,6 @@
 ---
 title: People - TTS
+title-header: People
 layout: layouts/cozy-page
 permalink: "services/people/"
 sidenav: false

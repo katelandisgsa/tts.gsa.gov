@@ -1,6 +1,7 @@
 ---
 layout: layouts/jointts/job-updated
 title: TTS - Designer
+title-header: Designer
 permalink: /join/tts-designer/
 tags: job
 state: open

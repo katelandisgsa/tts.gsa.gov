@@ -1,5 +1,6 @@
 ---
 title: Preparing your resume - TTS
+title-header: Preparing your resume
 layout: layouts/page
 permalink: join/resume/
 

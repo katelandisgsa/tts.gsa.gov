@@ -1,5 +1,7 @@
 ---
 title: Navigating the hiring process - TTS
+title-header: Navigating the hiring process
+description: We demystify the federal hiring process so you know what to expect. Here's a look at the average time of each stage from application to your first day at TTS.
 layout: layouts/page
 permalink: join/hiring-process/
 

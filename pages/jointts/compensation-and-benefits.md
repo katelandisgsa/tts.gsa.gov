@@ -1,5 +1,6 @@
 ---
 title: Understanding compensation and benefits - TTS
+title-header: Understanding compensation and benefits
 layout: layouts/page
 permalink: join/compensation-and-benefits/
 

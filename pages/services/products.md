@@ -1,5 +1,7 @@
 ---
 title: Products - TTS
+title-header: Products
+description: We provide building blocks and tooling that are commonly needed in the development of government digital services to help agencies deliver faster.
 layout: layouts/cozy-page
 permalink: "services/products/"
 sidenav: false
