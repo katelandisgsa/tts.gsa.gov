@@ -1,6 +1,7 @@
 ---
 title: Understanding compensation and benefits - TTS
 title-header: Understanding compensation and benefits
+description: Learn more about federal government pay grades, raises and bonuses, and benefits and leave for TTS team members.
 layout: layouts/page
 permalink: join/compensation-and-benefits/
 

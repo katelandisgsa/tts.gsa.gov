@@ -1,6 +1,7 @@
 ---
 title: Platforms - TTS
 title-header: Platforms
+description: When the public needs to interact with multiple agencies around a similar need, we build government-wide platforms to enable and centralize those interactions.
 layout: layouts/cozy-page
 permalink: "services/platforms/"
 sidenav: false

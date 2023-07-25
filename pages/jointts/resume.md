@@ -1,6 +1,7 @@
 ---
 title: Preparing your resume - TTS
 title-header: Preparing your resume
+description: Your resume may need revision to make it through the initial steps of the government hiring process. Here are some general recommendations.
 layout: layouts/page
 permalink: join/resume/
 

@@ -1,6 +1,7 @@
 ---
 title: People - TTS
 title-header: People
+description: We partner with agencies to help to define, plan, and execute a vision for human-centered digital services while also building capacity.
 layout: layouts/cozy-page
 permalink: "services/people/"
 sidenav: false
