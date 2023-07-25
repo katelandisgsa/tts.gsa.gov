@@ -1,6 +1,7 @@
 ---
 title: Reading a federal job posting - TTS
 title-header: Reading a federal job posting
+description: Understanding every section of a federal job posting can help you prepare the strongest possible application. Here's what to look for.
 layout: layouts/page
 permalink: join/federal-job-posting/
 
