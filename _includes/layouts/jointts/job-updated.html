@@ -2,7 +2,9 @@
 layout: layouts/default
 ---
 
-<h1> {{ title }}</h1>
+<div class="tts-title-banner">
+  <h1> {{ title }}</h1>
+</div>
 
 {%- assign sortedinfosessions = collections.info_sessions | where: "role", page.role_name | sort: 'date' -%}
 <div class="grid-container">
