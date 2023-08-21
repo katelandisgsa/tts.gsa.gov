@@ -33,8 +33,7 @@ services:
     logo: _img/People_PIF.png
     logo_alt_text: PIF
     category: people
-    description: A program that pairs top technologists with civil-servants to spend
-      12 months tackling some of our nation’s biggest challenges.
+    description: A program that pairs top technologists with civil servants to spend 12 months tackling some of our nation’s biggest challenges.
   - name: Digital Analytics Program
     link: https://digital.gov/guides/dap/
     link_alt_text: link to DAP website
@@ -53,14 +52,6 @@ services:
     description: Providing entities the ability to do business with the U.S.
       government. This includes updating or renewing, checking the status, and
       searching for entity registration and exclusion records.
-  - name: MAX.gov (Transitioning from OMB)
-    link: https://max.gov
-    link_alt_text: link to max.gov homepage
-    logo: _img/max-gov.png
-    logo_alt_text: Max.gov
-    category: products
-    description: TTS is working with OMB to develop and implement the next
-      generation of interagency collaboration tools and shared services.
   - name: Digital.gov
     link: https://digital.gov
     link_alt_text: link to Digital.gov homepage
@@ -253,10 +244,7 @@ services:
     link_alt_text: FPDS homepage
     logo: _img/fpds_logo.png
     logo_alt_text: Logo not yet available
-    description: "Being integrated into Sam.gov, a database containing publicly
-      available information about all unclassified contract actions exceeding
-      the micro-purchase threshold and any modifications to those actions that
-      change previously reported data, regardless of dollar value. "
+    description: "A database containing publicly available information about all unclassified contract actions exceeding the micro-purchase threshold and any modifications to those actions that change previously reported data, regardless of dollar value."
     category: products
   - name: FSRS
     link: https://www.fsrs.gov/

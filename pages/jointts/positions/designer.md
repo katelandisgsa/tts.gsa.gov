@@ -9,8 +9,8 @@ job_post_type: usajobs
 
 # INSTRUCTIONS UPCOMING: These fields are required for upcoming
 role_name: TTS Designer
-opens: 'June 14, 2022 at 9:00 am EDT' 
-closes: 'June 13, 2023 at 11:59 pm EDT'
+opens: 'June 14, 2023 at 9:00 am EDT' 
+closes: 'June 13, 2024 at 11:59 pm EDT'
 weeks_open: 52
 location: 'Virtual (100% Remote)'
 gs_level: '13, 14, 15'

@@ -3,7 +3,7 @@ layout: layouts/default
 ---
 
 <div class="tts-title-banner">
-  <h1> {{ title }}</h1>
+  <h1> {{ title-header }}</h1>
 </div>
 
 {%- assign jobs = collections.job -%}
@@ -46,7 +46,7 @@ layout: layouts/default
         {%- endunless -%}
         {%- endunless -%}
         {%- endif -%}
-        {%- endfor -%}
+        {%- endfor -%} 
          </ul>
 
         <h2> Upcoming positions</h2>
@@ -97,7 +97,7 @@ layout: layouts/default
     </div>
   </div>
   </section>
-  <section class="usa-section usa-section--dark margin-top-6">
+  <!-- <section class="usa-section usa-section--dark margin-top-6">
     <div class="grid-container">
       <div class="grid-row grid-gap">
         <div class="desktop:grid-col-8 usa-prose">
@@ -111,4 +111,4 @@ layout: layouts/default
         </div>
       </div>
   </div>
-</section>
+</section> -->
