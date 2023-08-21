@@ -66,7 +66,7 @@ primary_navigation:
         url: "/join/"
       - name: Hiring process
         url: "/join/hiring-process/"
-      - name: Reading a federal job resume
+      - name: Reading a federal job posting
         url: "/join/federal-job-posting/"
       - name: Preparing your resume
         url: "/join/resume/"
@@ -74,6 +74,8 @@ primary_navigation:
         url: "/join/compensation-and-benefits/"
       - name: About the Direct Hire Authority
         url: "/join/about-the-dha/"
+      - name: Frequently Asked Questions
+        url: "/join/faq/"
   - name: Our services
     children:
       - name: Products
