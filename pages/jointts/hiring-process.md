@@ -47,15 +47,15 @@ The federal hiring process differs from industry and private-sector hiring. Fede
 
 TTS hosts monthly general hiring information sessions and role-specific sessions for upcoming or newly-opened roles. At our general sessions, candidates learn about working at TTS, what types of roles we hire for, and more about the application process. Our role-specific info sessions briefly cover some of the same information and offer a chance to hear directly from the hiring team about the vision for the role and what a day-in-the-life might actually look like. Candidates have an opportunity to ask us questions about the application process, the work, and the team culture. TTS does not conduct one-on-one conversations with candidates about roles to ensure an equitable hiring process. Please attend one of our public information sessions for these details.
 
-[A list of upcoming information sessions can be found here](https://tts.gsa.gov/join/).
+[A list of upcoming information sessions can be found here]({{ site.baseurl }}/join/).
 
 ## Application
 
-Applications are collected during the period specified in the [Basic Information section of the job posting](https://tts.gsa.gov/join/federal-job-posting/), generally about a week or until an application cap is reached. After the period has closed, all applications are reviewed and evaluated at the same time.
+Applications are collected during the period specified in the [Basic Information section of the job posting]({{ site.baseurl }}/join/federal-job-posting/), generally about a week or until an application cap is reached. After the period has closed, all applications are reviewed and evaluated at the same time.
 
 TTS does not use automated screening tools. Your application will be evaluated by a HR Specialist or a panel of subject matter experts.
 
-When you apply for a role at TTS, you are required to submit a [government-style resume](https://tts.gsa.gov/join/resume/). Be explicit in your resume and include all relevant work experiences and details. Do not assume the reader has expert knowledge or context of your job history. Because applications are reviewed by real people, the application review process typically takes several weeks, depending on the number of applications received.
+When you apply for a role at TTS, you are required to submit a [government-style resume]({{ site.baseurl }}/join/resume/). Be explicit in your resume and include all relevant work experiences and details. Do not assume the reader has expert knowledge or context of your job history. Because applications are reviewed by real people, the application review process typically takes several weeks, depending on the number of applications received.
 
 ## Interviews
 
