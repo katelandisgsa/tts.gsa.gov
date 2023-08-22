@@ -13,64 +13,72 @@ layout: layouts/default
     <div class="grid-row grid-gap">
       <div class="desktop:grid-col-12 margin-bottom-3">
         <p class="usa-intro margin-top-0">
-          We’re looking for candidates who are passionate about helping agencies build, buy, and share technology to better serve the public. Our team focuses on all aspects of digital government including account management, software development, product management, procurement, design, content strategy, cloud migration, outreach, and operations.
+          We’re looking for candidates who are passionate about helping agencies build, buy, and share technology to
+          better serve the public. Our team focuses on all aspects of digital government including account management,
+          software development, product management, procurement, design, content strategy, cloud migration, outreach,
+          and operations.
         </p>
         <div class="usa-prose">
           <p>
-          The Technology Transformation Services (TTS) mission is to design and deliver a digital government with and for the American public. TTS is part of the General Services Administration (GSA).
+            The Technology Transformation Services (TTS) mission is to design and deliver a digital government with and
+            for the American public. TTS is part of the General Services Administration (GSA).
           </p>
           <p>
-          We are accepting applications for the positions listed below. We also post upcoming positions. <a href="{{ site.baseurl }}/newsletter">Join our mailing list</a> to be notified when we post new jobs.
+            We are accepting applications for the positions listed below. We also post upcoming positions. <a
+              href="{{ site.baseurl }}/newsletter">Join our mailing list</a> to be notified when we post new jobs.
           </p>
         </div>
       </div>
     </div>
+
+    {% assign timenow = "now" | date: "%s" %}
+    {% assign oJobs = jobs | where: "data.state", "open" %}
+    {% assign uJobs = jobs | where: "data.state", "upcoming" %}
+
     <div class="grid-row grid-gap">
       <div class="desktop:grid-col-8 usa-prose">
         <h2 id="open-positions">Open positions</h2>
-        <p>We are hiring and will be sharing upcoming jobs and open positions as they are available.</p>
-        <ul>
-        {%- for pg in jobs -%}
-        {%- if pg.data.state == 'open' -%}
-        {%- unless pg.data.path contains 'template' -%}
-        {%- unless pg.data.path contains 'performance-profiles' -%}
-        <li>
-        <a href="{{ pg.data.permalink | url}}">{{ pg.data.title }}</a> (Open {% if pg.data.weeks_open %}for {% if pg.data.weeks < 52 %}{{ pg.data.weeks }}{% else %} one year or until all selections have been made{% endif %},{% endif %} through {{ pg.data.closes | date: '%A, %B %e, %Y at %l:%M%P %Z' }} Eastern)
-        </li>
-        {%- endunless -%}
-        {%- elsif pg.data.state == 'usajobs' -%}
-        {%- unless pg.data.path contains 'template'  -%}
-        <li>
-        <a href="{{ pg.data.permalink | url}}">{{ pg.data.title }}</a> (Open {% if pg.data.weeks_open %}for {% if pg.data.weeks < 52 %}{{ pg.data.weeks }}{% else %} one year or until all selections have been made{% endif %},{% endif %} through {{ pg.data.closes | date: '%A, %B %e, %Y at %l:%M%P %Z' }} Eastern)
-        </li>
-        {%- endunless -%}
-        {%- endunless -%}
-        {%- endif -%}
-        {%- endfor -%} 
-         </ul>
+        {% if oJobs.length == 0 %}
+          <p>We are hiring and will be sharing open jobs and positions as they become available.</p>
+        {% else %}
+          <ul>
+            {%- for pg in oJobs -%}
+              {% assign timeopen = pg.data.opens | date: "%s" %}
+              {% assign timeclose = pg.data.closes | date: "%s" %}
+
+              {%- if timenow > timeopen and timenow < timeclose -%} <li>
+                <a href="{{ pg.data.permalink | url}}">{{ pg.data.title }}</a> (Open {% if pg.data.weeks_open %}for {% if
+                pg.data.weeks < 52 %}{{ pg.data.weeks }}{% else %} one year or until all selections have been made{% endif
+                  %},{% endif %} through {{ pg.data.closes | date: '%A, %B %e, %Y at %l:%M%P' }} Eastern) </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        {% endif %}
 
         <h2> Upcoming positions</h2>
-        {% comment %} <p>No upcoming positions at this time. Check out our open roles or <a href="{{ site.baseurl }}/newsletter">sign up for job alerts</a> for future upcoming roles!</p> {% endcomment %}
-         <ul>
-        {% for pg in sortedpages %}
-        {% if pg.state == 'upcoming' %}
-        {% unless pg.path contains 'template' %}
-        {% unless pg.path contains 'performance-profiles' %}
-        <li>
-          <a href="{{ pg.permalink | url}}">{{ pg.title }}</a>
-        </li>
-        {% endunless %}
-        {% endunless %}
+
+        {% if uJobs.length == 0 %}
+          <p>We will be sharing upcoming jobs and positions as they become available.</p>
+        {% else %}
+          <ul>
+            {%- for pg in uJobs -%}
+              <li>
+                <a href="{{ pg.data.permalink | url}}">{{ pg.data.title }}</a>
+              </li>
+            {%- endfor -%}
+          </ul>
         {% endif %}
-        {% endfor %}
-        </ul>
+
         <h2> Other GSA Opportunities </h2>
-       <p> Check out <a href="https://www.gsa.gov/about-us/careers">careers at GSA</a> and more <a href="https://www.usajobs.gov/Search/Results?j=2210&d=GS&p=1">Information Technology opportunities.</a></p>
-        
+        <p> Check out <a href="https://www.gsa.gov/about-us/careers">careers at GSA</a> and more <a
+            href="https://www.usajobs.gov/Search/Results?j=2210&d=GS&p=1">Information Technology opportunities.</a></p>
+
         <h2>Application process</h2>
         <p>
-        We have an amazing recruitment team who will usher you from application to interview to onboarding with TTS.
-        You’ll have guidance every step of the way! Learn more about our <a href="https://federalist-a2423046-fe43-4e75-a2ef-2651e5e123ca.sites.pages.cloud.gov/preview/gsa-tts/tts.gsa.gov/echo-summer20203/join/hiring-process/">hiring process</a>.
+          We have an amazing recruitment team who will usher you from application to interview to onboarding with TTS.
+          You’ll have guidance every step of the way! Learn more about our <a
+            href="https://federalist-a2423046-fe43-4e75-a2ef-2651e5e123ca.sites.pages.cloud.gov/preview/gsa-tts/tts.gsa.gov/echo-summer20203/join/hiring-process/">hiring
+            process</a>.
         </p>
         <p>
           If you have any questions about the process or positions, please contact
@@ -84,10 +92,14 @@ layout: layouts/default
               Register for a hiring information session
             </h3>
             <div class="usa-summary-box__text">
-              <p>We hold periodic info sessions to offer potential candidates an opportunity to learn more about working at TTS, available positions, and our application process. Register for a session below.</p>
+              <p>We hold periodic info sessions to offer potential candidates an opportunity to learn more about working
+                at TTS, available positions, and our application process. Register for a session below.</p>
               <ul>
                 {% for session in sortedinfosessions %}
-                    <li><p><a target="_blank" href="{{ session.link }}">{{session.role}} Hiring Info Session</a><br />{{session.date | date: "%A, %B %d,"}} at {{ session.time }}</p></li>
+                <li>
+                  <p><a target="_blank" href="{{ session.link }}">{{session.role}} Hiring Info
+                      Session</a><br />{{session.date | date: "%A, %B %d,"}} at {{ session.time }}</p>
+                </li>
                 {% endfor %}
               </ul>
             </div>
@@ -96,8 +108,8 @@ layout: layouts/default
       </div>
     </div>
   </div>
-  </section>
-  <!-- <section class="usa-section usa-section--dark margin-top-6">
+</section>
+<!-- <section class="usa-section usa-section--dark margin-top-6">
     <div class="grid-container">
       <div class="grid-row grid-gap">
         <div class="desktop:grid-col-8 usa-prose">

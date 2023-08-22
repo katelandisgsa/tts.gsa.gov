@@ -9,8 +9,8 @@ job_post_type: usajobs
 
 # INSTRUCTIONS UPCOMING: These fields are required for upcoming
 role_name: TTS Designer
-opens: 'June 14, 2023 at 9:00 am EDT' 
-closes: 'June 13, 2024 at 11:59 pm EDT'
+opens: '2023-08-01 09:00'
+closes: '2023-08-24 23:59'
 weeks_open: 52
 location: 'Virtual (100% Remote)'
 gs_level: '13, 14, 15'
@@ -35,7 +35,7 @@ supervisory_status: 'No'
 ---
 
 {%- if state == 'upcoming' -%}
-{{ org }} will soon be accepting applications for GS-{{ gs_level }} - {{ role_name }} roles.
+  {{ org }} will soon be accepting applications for GS-{{ gs_level }} - {{ role_name }} roles.
   {%- if opens == 'tbd' -%} The target date for when these positions will be officially open to application has not yet been determined. If you'd like to be
   notified when these positions are open, sign up to our [mailing list]({{ site.baseurl }}/newsletter).
   {%- endif -%}
