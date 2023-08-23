@@ -21,7 +21,9 @@ to modify some of the meta-data for the site, this is the place to do it.
   {% else %}
   <title>{{site.title}}</title>
   {% endif %}
-  <link rel="icon" type="image/png" href="{{ assetPaths['favicon'] }} " sizes="32x32" />
+
+  <link rel="icon" type="image/png" href="{{ assetPaths['favicon'] }}" sizes="32x32" />
+
 
   <meta property="og:title" content="{{site.title}}" />
   <meta name="description" content="{{description}}" />
