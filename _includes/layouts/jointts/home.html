@@ -42,16 +42,16 @@ layout: layouts/default
           <p>We are hiring and will be sharing open jobs and positions as they become available.</p>
 
           <ul>
-            {%- for pg in oJobs -%}
+            {% for pg in oJobs %}
               {% assign timeopen = pg.data.opens | date: "%s" %}
               {% assign timeclose = pg.data.closes | date: "%s" %}
 
-              {%- if timenow > timeopen and timenow < timeclose -%} <li>
+              {% if timenow > timeopen and timenow < timeclose %} <li>
                 <a href="{{ pg.data.permalink | url}}">{{ pg.data.title }}</a> (Open {% if pg.data.weeks_open %}for {% if
                 pg.data.weeks < 52 %}{{ pg.data.weeks }}{% else %} one year or until all selections have been made{% endif
                   %},{% endif %} through {{ pg.data.closes | date: '%A, %B %e, %Y at %l:%M%P' }} Eastern) </li>
-              {%- endif -%}
-            {%- endfor -%}
+              {% endif %}
+            {% endfor %}
           </ul>
 
 
@@ -61,10 +61,10 @@ layout: layouts/default
           <p>We will be sharing upcoming jobs and positions as they become available.</p>
         {% else %}
           <ul>
-            {%- for pg in uJobs -%}
+            {% for pg in uJobs %}
               <li>
                 <a href="{{ pg.data.permalink | url}}"><h4>{{ pg.data.title }}</h4></a>
-                {% unless pg.data.info_sessions == empty %}
+                {% unless pg.data.info_sessions == empty or pg.data.info_sessions == nil %}
                   <p>Upcoming info sessions for {{pg.data.title}}</p>
                   <ul>
                     {% for i in pg.data.info_sessions %}
@@ -75,7 +75,7 @@ layout: layouts/default
                   </ul>
                 {% endunless %}
               </li>
-            {%- endfor -%}
+            {% endfor %}
           </ul>
         {% endif %}
 
