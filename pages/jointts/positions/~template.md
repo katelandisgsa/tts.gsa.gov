@@ -2,8 +2,6 @@
 #
 # This template has general instructions on variables to create open and upcoming jobs
 #
-#
-#
 
 # INSTRUCTIONS GENERAL:
 # - These are some of the main mandatory variables needed for functionality.
@@ -23,7 +21,7 @@ role_name: TTS Designer                          # name of role
 opens: '2023-08-01 09:00'                        # Will not appear on /join until
 closes: '2023-08-24 23:59'                       # Will disappear from /join 
 weeks_open: 52
-location: 'Virtual (100% Remote)'
+location: 'Anywhere in the U.S. (remote)'
 gs_level: '13, 14, 15'
 salary_min: '94,373'
 salary_max: '176,300'
