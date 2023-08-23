@@ -38,9 +38,9 @@ layout: layouts/default
     <div class="grid-row grid-gap">
       <div class="desktop:grid-col-8 usa-prose">
         <h2 id="open-positions">Open positions</h2>
-        {% if oJobs.length == 0 %}
+
           <p>We are hiring and will be sharing open jobs and positions as they become available.</p>
-        {% else %}
+
           <ul>
             {%- for pg in oJobs -%}
               {% assign timeopen = pg.data.opens | date: "%s" %}
@@ -53,7 +53,7 @@ layout: layouts/default
               {%- endif -%}
             {%- endfor -%}
           </ul>
-        {% endif %}
+
 
         <h2> Upcoming positions</h2>
 
@@ -63,7 +63,17 @@ layout: layouts/default
           <ul>
             {%- for pg in uJobs -%}
               <li>
-                <a href="{{ pg.data.permalink | url}}">{{ pg.data.title }}</a>
+                <a href="{{ pg.data.permalink | url}}"><h4>{{ pg.data.title }}</h4></a>
+                {% unless pg.data.info_sessions == empty %}
+                  <p>Upcoming info sessions for {{pg.data.title}}</p>
+                  <ul>
+                    {% for i in pg.data.info_sessions %}
+                      <li>
+                        <a href="{{i.link}}">{{i.date | date: '%A, %B %e, %Y' }}</a><br>at {{i.time}}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endunless %}
               </li>
             {%- endfor -%}
           </ul>
