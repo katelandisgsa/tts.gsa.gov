@@ -24,7 +24,7 @@ sidenav:
 subnav: false
 ---
 
-Sign up for the TTS Talent newsletter to receive emails about new and upcoming positions. Please select the positions below that you’re interested in, and we’ll send you notifications when we have info sessions for matching roles and when these roles are open for application.
+<h2>Join our mailing list to be notified when we post new jobs.</h2>
 
 <script
   src="https://public.govdelivery.com/assets/Signup.js"

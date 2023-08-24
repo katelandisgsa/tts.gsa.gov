@@ -203,16 +203,16 @@ services:
     description: Providing guidance and code to transform how the government
       delivers a seamless, trustworthy and optimal digital experience to the
       public.
-  - name: eRegulations
+  - name: Regulations.gov
     link: https://www.regulations.gov/
-    link_alt_text: link to eRegulations homepage
+    link_alt_text: link to Regulations homepage
     logo: _img/Logo_Regulations.gov.png
     category: platforms
-    logo_alt_text: eRulemaking logo
+    logo_alt_text: Rulemaking logo
     description: Increasing access to and participation in developing regulations
       and other related documents that impact you and promoting more efficient
       and effective rulemaking through public involvement.
-  - name: eSRS
+  - name: Electronic Subcontracting Reporting System (eSRS)
     link: https://www.esrs.gov/
     link_alt_text: link to eSRS homepage
     logo: _img/esrs.png
@@ -220,7 +220,7 @@ services:
     description: "A web-based reporting tool to collect subcontracting
       accomplishments and share the information with the awarding official. "
     category: platforms
-  - name: CPARS
+  - name: Contractor Performance Assessment Reporting System (CPARS)
     link: https://cpars.gov/
     link_alt_text: link to CPARS homepage
     logo: _img/cpars.png
