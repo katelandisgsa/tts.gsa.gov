@@ -4,12 +4,12 @@
 #
 #  ****  fields that don't seem to be used  *****
 #
-#  role_name - lightly used. needed?
-#  weeks_open - lightly used. needed?
+#  role_name - lightly used and similar to another field. needed?
+#  weeks_open - use? needed?
 #
 #     title-header
 #     job_post_type: usajobs 
-#     job_announcement_number: 'TODO'
+#     job_announcement_number: ''
 #     pd_job_title: 'IT Specialist (SYSANALYSIS)'
 #     num_vacancies: '100'
 #     series: '2210'
@@ -23,6 +23,7 @@
 #  apply_url - needed for all jobs in this format
 #
 
+#🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 # INSTRUCTIONS GENERAL:
 # - These are some of the main mandatory variables needed for functionality.
 
@@ -33,6 +34,7 @@ permalink: /join/<something-unique>/             # should be unique /join/<uniqu
 tags: job                                        # tag used to sort into job collection
 state: template                                  # upcoming, open, closed | template = excluded
 job_post_type: usajobs                           # not sure if this is used anymore?
+
 
 # INSTRUCTIONS UPCOMING: 
 # - These fields are required for `state: upcoming`
@@ -58,20 +60,23 @@ info_sessions:
   - link: https://www.eventbrite.com/...
     date: '2023-08-14 16:00'
     time: 4:00-4:30pm ET
-
+    
 # INSTRUCTIONS OPEN: 
 # - These fields are required for `state: open`
 
-job_announcement_number: 'TODO'
+job_announcement_number: ''
 pd_job_title: 'IT Specialist (SYSANALYSIS)'
 num_vacancies: '100'
 series: '2210'
-apply_url: 'TODO'
+apply_url: ''
 ohrm_contact_email: 'tts-hrstaffers@gsa.gov'
 ohrm_contact_name: 'Loyola Ukpokodu'
 bargaining_unit: 'Non Bargaining Unit'
 promotion_potential: '15'
 supervisory_status: 'No'
+
+#🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺
+
 
 #
 #
@@ -99,6 +104,7 @@ These opportunities are located in the General Services Administration (GSA), Fe
 
 We will be interviewing and hiring for this role on an ongoing basis and to help navigate the process, we’ve created a [guide](https://join.tts.gsa.gov/rolling-hiring/) to help explain what to expect after submitting your resume.
 
+{% comment %}🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻{% endcomment %}
 ## Role summary
 
 Designers at TTS work across design contexts. They drive research activities, derive insights, generate concepts, communicate those concepts clearly, and work with cross functional teams to build and test them. They model best practices in user-centered design within TTS and across the federal government through advocacy and coaching.
@@ -121,6 +127,10 @@ Please note, while a candidate's preference on teams may be taken into considera
 - [USAGov](https://www.usa.gov/): A team supporting a large web presence, including the government’s “front door” that routes the public to government agency resources.
 - [Centers of Excellence](https://coe.gsa.gov/): Cross-discipline teams work with agency partners and industry to accelerate enterprise-wide IT & data modernization with emphasis on improving the customer and employee experience.
 - [Login.gov](https://login.gov/): Teams supporting a product that manages identity for interactions with the federal government.
+
+{% comment %}🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺{% endcomment %}
+
+{% comment %}🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻{% endcomment %}
 
 ## Key objectives
 ### 1. Demonstrate excellence in design, while grasping the core questions and responsibilities of at least one design discipline.

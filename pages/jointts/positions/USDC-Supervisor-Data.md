@@ -40,11 +40,11 @@ info_sessions:
 # INSTRUCTIONS OPEN: 
 # - These fields are required for `state: open`
 
-job_announcement_number: 'TODO'
+job_announcement_number: ''
 pd_job_title: 'Supervisory IT Specialist'
 num_vacancies: '100'
 series: '2210'
-apply_url: 'TODO'
+apply_url: 'https://www.usajobs.gov/job/742594300'
 ohrm_contact_email: 'tts-hrstaffers@gsa.gov'
 ohrm_contact_name: 'Loyola Ukpokodu'
 bargaining_unit: 'Non Bargaining Unit'
@@ -211,10 +211,16 @@ To qualify, you must have one (1) year of specialized experience at the next low
 
 ## How To Apply
 
-Submit a complete online application prior to {{ closes | date: '%l:%M%P %Z ET on %A, %B %e, %Y' }}. Please fill out all applicable fields.
+{% if state == 'upcoming' %}
+  Get [notified]({{ site.baseurl }}/newsletter) when this position is open for applications.
+{% else %}
 
-<section class="usa-grid-full">
-  <a class="usa-button usa-button-secondary" href="{{ apply_url }}">Click here to apply</a>
-</section>
+  Submit a complete online application prior to {{ closes | date: '%l:%M%P %Z ET on %A, %B %e, %Y' }}. Please fill out all applicable fields.
 
-**Need Assistance in applying or have questions regarding this job opportunity, please email {{ contact_name }} at** [{{ contact_email }}](mailto:{{ contact_email }}).
+  <section class="usa-grid-full">
+    <a class="usa-button usa-button-secondary" href="{{ apply_url }}">Click here to apply</a>
+  </section>
+
+  **Need Assistance in applying or have questions regarding this job opportunity, please email {{ contact_name }} at** [{{ contact_email }}](mailto:{{ contact_email }}).
+
+{%- endif -%}
