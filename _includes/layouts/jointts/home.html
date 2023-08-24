@@ -114,10 +114,9 @@ layout: layouts/default
             <div class="usa-summary-box__text">
               <p>Join us at one of our monthly online information sessions. Come learn more about working at TTS, available positions, and our application process. Register for a session below.</p>
               <ul>
-                {% for session in sortedinfosessions %}
+                {% for session in find_out_more %}
                 <li>
-                  <p><a target="_blank" href="{{ session.link }}">{{session.role}} Hiring Info
-                      Session</a><br />{{session.date | date: "%A, %B %d,"}} at {{ session.time }}</p>
+                  <p><a target="_blank" href="{{ session.link }}">{{session.date | date: "%A, %B %d, %Y"}}</a> at {{ session.time }}</p>
                 </li>
                 {% endfor %}
               </ul>
