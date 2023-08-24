@@ -13,23 +13,23 @@ role_name: Data & Analytics Modernization Lead
 opens: '2023-11-21 09:00'
 closes: '2023-11-22 23:59'
 weeks_open: 52
-location: 'Virtual (100% Remote)'
+location: 'Anywhere in the U.S. (remote)'
 gs_level: '15'
 salary_min: '136,908'
 salary_max: '183,500'
 org: 'CoE'
-contact_name: 'TODO'
-contact_email: 'todo@todo.todo'
+contact_name: 'TTS Talent Team'
+contact_email: 'jointts@gsa.gov'
 
 info_sessions: ''
 
 # INSTRUCTIONS OPEN: These fields are required for open
 
-job_announcement_number: '22FASC350LUOTR'
-pd_job_title: 'IT Specialist (SYSANALYSIS)'
+job_announcement_number: 'TODO'
+pd_job_title: 'Information Technology Specialist (SYSANALYSIS)'
 num_vacancies: '100'
 series: '2210'
-apply_url: 'https://docs.google.com/forms/d/e/1FAIpQLScwzijeP-591NKESpaBG_R4c5Iyw2zDf600yWVXx67xy5vaMw/viewform'
+apply_url: 'TODO'
 ohrm_contact_email: 'tts-hrstaffers@gsa.gov'
 ohrm_contact_name: 'Loyola Ukpokodu'
 bargaining_unit: 'Non Bargaining Unit'
@@ -49,10 +49,55 @@ supervisory_status: 'No'
   {%- endunless -%}
 {%- endif -%}
 
+## Role summary
+
+## Opportunity overview
+
+These opportunities are located in the General Services Administration (GSA), Federal Acquisition Service (FAS), Technology Transformation Services (TTS). TTS applies modern methodologies and technologies to improve the lives of the public and public servants. We help agencies make their services more accessible, efficient, and effective with modern applications, platforms, processes, personnel, and software solutions.
+
+We will be interviewing and hiring for this role on an ongoing basis and to help navigate the process, we’ve created a [guide](https://join.tts.gsa.gov/rolling-hiring/) to help explain what to expect after submitting your resume.
+
+
+## Role summary
+
+Technology Transformation Services (TTS), Centers of Excellence (CoE) is hiring for the role of GS-15 Data & Analytics Modernization Lead. This is an opportunity to make a huge difference in the lives of the public and other federal agencies.
+
+As part of GSA’s Technology Transformation Services, the Centers of Excellence (CoE) initiative accelerates IT modernization at federal agencies by leveraging private sector innovation and government services while centralizing best practices and expertise for holistic transformation.
+
+The Centers of Excellence work primarily in six focus areas: Infrastructure Optimization, Cloud Adoption, Data & Analytics, Artificial Intelligence, Contact Centers, and Customer Experience. Our complementary work in strategic communications, change management, and performance management ensures these innovations can be successful and sustainable. We also work with partner agencies to enhance their ability to innovate so they can continuously modernize as opportunities and challenges emerge over time.
+
+As a Data & Analytics Modernization Lead at the CoE, you will:
+- help our agency partner make sense of the complex digital landscape and how technology and process modernization can benefit their programs and users. 
+- establish and maintain trusted relationships with our agency partners, and set up engagements to be successful.
+- coordinate cross-functional teams to deliver user-centered solutions to complex problems. 
+- help our agency partners to develop their own capacity for continuous innovation. 
+- offer a customized Data and Analytics strategic guidance that enables optimal access to agency data.
+- employ industry best practices and data architectural principles to define the target state.
+- develop well-defined implementation plans that include year-long projects, benefits and risks.
+Your expertise will help ensure the success of our government partners as they meet technology modernization challenges head on.
+
+## Key objectives
+### 1. Promote the adoption of modern technology and business practices through advice, recommendations, teaching, coaching, and knowledge sharing.
+- Practice and enthusiastically share project management and agile methodologies throughout all stages of the project lifecycle.
+- Deliver educational workshops to accelerate learning and adoption of agile principles and practices.
+- Inspire honesty and integrity through open communication and liberal knowledge sharing across multi-disciplinary teams.
+- Create compelling case studies on how users are benefiting from the CoE projects, providing a special focus on lessons learned.
+### 2. Practice an exceptional customer experience with all partners, providing a unique, tailored partner experience and solutions. 
+- Explain products or services to people who have varying levels of technical knowledge — always meet the agency partner where they’re at.
+- Empathetically guide our agency partners through requirements, standards, guidelines, administration priorities, compliance and security processes.
+- Skillfully map specific inquiries to product capabilities, identifying the product that best meets the agency partner’s needs.
+- Serve as a liaison between the stakeholders and the project teams, delivering feedback to the team, enabling them to make necessary changes to product performance or presentations.
+- Support a safe, inclusive workplace and a positive team culture where all team members value diversity and individual differences.
+### 3. Lead a customized Data and Analytics strategy service that enables optimal access to a partner agency data.
+- Drive agency-wide and multi-agency IT modernization initiatives in the areas of data management, analytics, and data visualization.
+- Advise senior executives on data management best practices, maturing organizational analytics portfolios, and on new developments and advanced techniques in data science.
+- Lead and develop pilots, prototypes, and minimum viable products to demonstrate analytic products and solutions for customers. 
+- Serve as a data and analytics subject matter expert through consulting with customers to determine requirements, explore solutions, and deliver high business impact solutions in an iterative, agile process.
+
+
 ## Basic information
 
-Open to U.S. citizens or nationals (residents of American Samoa and Swains
-Island).
+Open to U.S. citizens or nationals (residents of American Samoa and Swains Island). Subject to background check. Full information will be available on USAJOBS.
 
 **Supervisory status:** Supervisory
 
@@ -62,7 +107,11 @@ Island).
 
 **Number of vacancies:** 4
 
-**Location:** Anywhere in the U.S. (remote)
+**Location:** {{ location }}
+
+**Salary Range:**
+The salary ranges for this position are:
+- GS-14 ${{salary_min}} to ${{salary_max}}
 
 Your salary, including base and locality, will be determined upon selection,
 dependent on your actual duty location. Please note the maximum salary available
@@ -123,3 +172,13 @@ lower GS-grade (or equivalent). Specialized experience is defined as follows:
 - Experience with iterative or agile methodologies.
 - Experience leading cross-functional teams.
 - Experience collaborating with senior or executive stakeholders.
+
+## How To Apply
+
+Submit a complete online application prior to {{ closes | date: '%l:%M%P %Z ET on %A, %B %e, %Y' }}. Please fill out all applicable fields.
+
+<section class="usa-grid-full">
+  <a class="usa-button usa-button-secondary" href="{{ apply_url }}">Click here to apply</a>
+</section>
+
+**Need Assistance in applying or have questions regarding this job opportunity, please email {{ contact_name }} at** [{{ contact_email }}](mailto:{{ contact_email }}).

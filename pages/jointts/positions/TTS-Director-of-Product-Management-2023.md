@@ -5,7 +5,7 @@
 
 layout: layouts/jointts/job-updated              # layout used to render job information
 title: "TTS: Director of Product Management"     # title of the page/position
-title-header: Designer
+title-header: Director of Product Management
 permalink: /join/tts-director-product-management/             # should be unique /join/<unique-value>
 tags: job                                        # tag used to sort into job collection
 state: upcoming                                  # upcoming, open, closed | template = excluded
@@ -14,9 +14,9 @@ job_post_type: usajobs                           # not sure if this is used anym
 # INSTRUCTIONS UPCOMING: 
 # - These fields are required for `state: upcoming`
 
-role_name: TTS Directoir                          # name of role
-opens: '2023-08-01 09:00'                        # Will not appear on /join until
-closes: '2023-10-22 23:59'                       # Will disappear from /join 
+role_name: TTS - Director of Product Management  # name of role
+opens: '2023-09-11 09:00'                        # Will not appear on /join until
+closes: '2023-09-15 23:59'                       # Will disappear from /join 
 weeks_open: 52
 location: 'Virtual (100% Remote)'
 gs_level: '15'
@@ -29,18 +29,18 @@ contact_email: 'jointts@gsa.gov'
 # OPTIONAL UPCOMING -
 # - to remove, just elete info_sessions or leave it blank info_sessions:
 info_sessions:                             
-  - link: https://www.eventbrite.com/...
-    date: 2023-02-07
+  - link: https://www.google.com/url?q=https://gsa.zoomgov.com/meeting/register/vJIsdOuhqjIpHtnWZrKqsxnppsouGp2n3w0&sa=D&source=calendar&ust=1693251092764189&usg=AOvVaw38y3JYB4016v33To-LAQGV
+    date: '2023-09-07 13:30'
     time: 1:30-2:30pm ET (10:30am -11:30am PT)
 
 # INSTRUCTIONS OPEN: 
 # - These fields are required for `state: open`
 
-job_announcement_number: '22FASC350LUOTR'
-pd_job_title: 'IT Specialist (SYSANALYSIS)'
+job_announcement_number: 'TODO'
+pd_job_title: ''
 num_vacancies: '100'
 series: '2210'
-apply_url: 'https://docs.google.com/forms/d/e/1FAIpQLScwzijeP-591NKESpaBG_R4c5Iyw2zDf600yWVXx67xy5vaMw/viewform'
+apply_url: 'TODO'
 ohrm_contact_email: 'tts-hrstaffers@gsa.gov'
 ohrm_contact_name: 'Loyola Ukpokodu'
 bargaining_unit: 'Non Bargaining Unit'
@@ -61,41 +61,11 @@ supervisory_status: 'No'
   {%- endunless -%}
 {%- endif -%}
 
+## Opportunity overview
 
-## Basic information
+These opportunities are located in the General Services Administration (GSA), Federal Acquisition Service (FAS), Technology Transformation Services (TTS). TTS applies modern methodologies and technologies to improve the lives of the public and public servants. We help agencies make their services more accessible, efficient, and effective with modern applications, platforms, processes, personnel, and software solutions.
 
-Open to U.S. citizens or nationals (residents of American Samoa and Swains
-Island). Subject to background check. 
-
-**Supervisory status:** Supervisory
-
-**Job title:** {{ title }}
-
-
-**Official title in USAJOBS:**
-
-**Number of vacancies:** 1
-
-**Location:** Anywhere in the U.S. (remote)
-
-Your salary, including base and locality, will be determined upon selection,
-dependent on your actual duty location. Please note the maximum salary available
-for the GS pay system is ${{salary_max}}. For specific details on locality pay, please
-visit [OPM's Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
-or for a salary calculator
-[OPM's 2023 General Schedule (GS) Salary Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2023/general-schedule-gs-salary-calculator/). You can find more
-information in our
-[compensation and benefits section](https://join.tts.gsa.gov/compensation-and-benefits/).
-
-**Travel requirement:**
-Occasional travel may be required up to 10%-20% per year.
-
-**Work schedule:**
-Full time.
-
-Learn more about the benefits of working at
-[GSA](https://www.gsa.gov/portal/category/26702) and
-[TTS](https://join.tts.gsa.gov/compensation-and-benefits/).
+We will be interviewing and hiring for this role on an ongoing basis and to help navigate the process, we’ve created a [guide](https://join.tts.gsa.gov/rolling-hiring/) to help explain what to expect after submitting your resume.
 
 ## Role summary
 
@@ -105,77 +75,117 @@ The  new TTS  Director Of Product Management will lead these efforts. This new p
 
 The ideal candidate will encompass the following: 
 
-  - A strategic thinker who knows how to define compelling product visions based on rigorous and inclusive research and service design, designing a measurable strategy to achieve that vision, communicating the vision, and driving delivery against the strategy.
-  - An experienced leader who knows from successes and failures the best practices for product management and software development for digital products and network services
-  - An influential facilitator who knows how to effectively communicate and motivate cross-functional teams to build the right thing.
-  - A pragmatic detective comfortable with uncertainty and ambiguity using both quantitative and qualitative methods to evaluate the direction of products.
-  - An empathetic coach, teacher, and advocate who helps staff develop the skills to manage products.
-  - A knowledgeable champion for promoting greater equity and accessibility in the development of products and platforms
-
+- A strategic thinker who knows how to define compelling product visions based on rigorous and inclusive research and service design, designing a measurable strategy to achieve that vision, communicating the vision, and driving delivery against the strategy.
+- An experienced leader who knows from successes and failures the best practices for product management and software development for digital products and network services
+- An influential facilitator who knows how to effectively communicate and motivate cross-functional teams to build the right thing.
+- A pragmatic detective comfortable with uncertainty and ambiguity using both quantitative and qualitative methods to evaluate the direction of products.
+- An empathetic coach, teacher, and advocate who helps staff develop the skills to manage products.
+- A knowledgeable champion for promoting greater equity and accessibility in the development of products and platforms
 
 ## Key objectives
-
-- **Objective 1: Defining and deploying standards of practice for product management at TTS**
+### 1. Defining and deploying standards of practice for product management at TTS**
 The Director of Product Management will work collaboratively with product development teams and organizational leadership and be responsible for setting the general approach to and standards of practice of the product management discipline at TTS. This includes defining the tools, methodologies, and artifacts used by product managers throughout the organization. 
 
-  The director is also responsible for the rollout and adoption of these practices across the organization through a consultative partnership, and leverages the director’s subject matter expertise and data-driven approach to influence teams in a matrixed environment. In addition: 
-    - Ensuring product teams are co-designing with state and local governments, tribal nations, and community-based organizations (CBOs) supporting historically-marginalized communities and people with disabilities.
-    - Continually promoteTTS’s values by making a strong case for iterative, user-centered design on every project.
+The director is also responsible for the rollout and adoption of these practices across the organization through a consultative partnership, and leverages the director’s subject matter expertise and data-driven approach to influence teams in a matrixed environment. In addition: 
+- Ensuring product teams are co-designing with state and local governments, tribal nations, and community-based organizations (CBOs) supporting historically-marginalized communities and people with disabilities.
+- Continually promoteTTS’s values by making a strong case for iterative, user-centered design on every project.
 
-    
-- **Objective 2: Establishing and executing product portfolio management at TTS**
+### 2. Establishing and executing product portfolio management at TTS**
 Through TTS’ rapid growth, the scope of its products, programs, and stakeholders has become complex. The Director will practice consistent product portfolio management to moderate and manage this. In collaboration with TTS leadership, the director will establish the process and policies for the intake, evaluation, and prioritization of new product ideas and requests. This will involve:
-    - Defining business processes for the intake of new product ideas and requests with internal and external stakeholders. This may also include implementation of toolsets that enable the organization, and communication of the TTS product and program landscape holistically. 
-    - Establishing the evaluation criteria used by leadership to approve or reject new requests. These criteria will include assessing customer value, level of effort, financial viability, technical feasibility, total cost of ownership, and regulatory requirements. 
-    - Creating methodologies for approved requests to be prioritized by development teams within their existing scope of work taking into account the needs of stakeholders and TTS’ overall organizational goals.
-    - Thoughtfully rolling out this new practice across the organization leveraging best practices in change management for successful adoption
-    - Executing and managing the operations of the portfolio management process once it is established. 
+- Defining business processes for the intake of new product ideas and requests with internal and external stakeholders. This may also include implementation of toolsets that enable the organization, and communication of the TTS product and program landscape holistically. 
+- Establishing the evaluation criteria used by leadership to approve or reject new requests. These criteria will include assessing customer value, level of effort, financial viability, technical feasibility, total cost of ownership, and regulatory requirements. 
+- Creating methodologies for approved requests to be prioritized by development teams within their existing scope of work taking into account the needs of stakeholders and TTS’ overall organizational goals.
+- Thoughtfully rolling out this new practice across the organization leveraging best practices in change management for successful adoption
+- Executing and managing the operations of the portfolio management process once it is established. 
 
-- **Objective 3: Leading engagements with internal and external stakeholders**
+### 3. Leading engagements with internal and external stakeholders**
 The Director of Product will be responsible for engaging with stakeholders of all kinds to promote TTS’ products and services along with advancing the organization’s goals and objectives. This may include:
-    - Partnering with other program and product leaders within TTS to enable success for the entire organization 
-    - Speaking at conferences and events to connect with government leaders and others in the civic technology space
-    - Collaborating with other parts of GSA and other government agencies to expand the impact and potential of TTS’ products and services
+- Partnering with other program and product leaders within TTS to enable success for the entire organization 
+- Speaking at conferences and events to connect with government leaders and others in the civic technology space
+- Collaborating with other parts of GSA and other government agencies to expand the impact and potential of TTS’ products and services
 
-- **Objective 4: Advising TTS leadership on product-related strategies, practices, and policy**
+### 4. Advising TTS leadership on product-related strategies, practices, and policy**
 The director will be a key member of the delivery team and will work closely with the TTS Director, and Deputy Director along with front office advisors to realize the organization’s goals and objectives. It is expected that the director will:
-    - Contribute meaningfully to discussions and take ownership of selected artifacts and deliverables for TTS’ product strategies, practices, and policies. These deliverables could be wide ranging and may involve decision memos, research reports, market analysis, and more. 
-    - Provide subject matter expertise in the areas of modern software development practices, research and development methodologies, and customer-experience / human-centered design. 
-    - Collaborating with other parts of GSA and other government agencies to expand the impact and potential of TTS’ products and services
+- Contribute meaningfully to discussions and take ownership of selected artifacts and deliverables for TTS’ product strategies, practices, and policies. These deliverables could be wide ranging and may involve decision memos, research reports, market analysis, and more. 
+- Provide subject matter expertise in the areas of modern software development practices, research and development methodologies, and customer-experience / human-centered design. 
+- Collaborating with other parts of GSA and other government agencies to expand the impact and potential of TTS’ products and services
 
-- **Objective 5: Hiring, training, and supervising a team to assist in delivering results**
+### 5. Hiring, training, and supervising a team to assist in delivering results**
 The Director will  hire, train, and supervise a team to advance the goals and objectives stated above. The team may include full-time federal employees, temporary contract personnel, and/or external consultants serving as subject matter experts. It is critical that the director be knowledgeable in management practices and capable of leading a team. Specific responsibilities include:
-    - Collaborating with TTS talent acquisition, GSA human resources, and procurement to identify full-time and temporary staffing options and secure appropriately skilled talent
-    - Hire and onboard team members with clear training plans and performance expectations that include annual performance goals for each role
-    - Assist in the development of individual career paths through identifying professional goals, development opportunities, and learning needs.
-    - Create a team culture of collaboration, inclusivity, and accountability
-    - Serve as a coach, mentor, and teacher to the team
+- Collaborating with TTS talent acquisition, GSA human resources, and procurement to identify full-time and temporary staffing options and secure appropriately skilled talent
+- Hire and onboard team members with clear training plans and performance expectations that include annual performance goals for each role
+- Assist in the development of individual career paths through identifying professional goals, development opportunities, and learning needs.
+- Create a team culture of collaboration, inclusivity, and accountability
+- Serve as a coach, mentor, and teacher to the team
 
+## Basic information
 
+**Location:**
+{{ location }}
+
+**Salary Range:**
+The salary ranges for this position are:
+- ${{salary_min}} to ${{salary_max}}
+
+Your salary, including base and locality, will be determined upon selection, dependent on your actual duty location.
+
+You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/).
+
+For specific details on locality pay, please visit [OPM's Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) or for a
+salary calculator [OPM's 2022 General Schedule (GS) Salary Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2022/general-schedule-gs-salary-calculator/).
+
+Please note the maximum salary available for the GS pay system is **$183,500**
+
+Note: You may not be eligible for the maximum salary as it is locality dependent. Please refer to the maximum pay for your locality.
+
+**Who May Apply:**
+All United States citizens and nationals (residents of American Samoa and Swains Islands).
+
+**Travel requirement:**
+Occasional travel may be required up to 10%-20% per year.
+
+**Security clearance:**
+Public trust. Background investigation required.
+
+**Work schedule:**
+Full time.
+
+**Appointment type:**
+This is a term limited appointment with the ability to extend for a total of eight years.
+
+**Employee benefits:**
+[Learn more about the benefits we offer.](https://join.tts.gsa.gov/compensation-and-benefits/)
+  - Health insurance (choose from a wide range of plans)
+  - Life insurance coverage with several options
+  - Sick leave and vacation time, including 10 paid holidays per year
+  - Thrift Savings Plan (similar to a 401(k) plan)
+  - Flexible work schedules and telework
+  - Transit and child care subsidies
+  - Training and development
+  - Flexible spending accounts
+  - Long-term care insurance
+  - Training and development
+  - Direct Deposit of salary check to financial organization required.
 
 ## Qualifications
 
-Provide as much detail as possible on your resume so that we can evaluate your
-previous experience. Follow our
-[guidance on creating a federal style resume.](https://join.tts.gsa.gov/resume/)
+Provide as much detail as possible on your resume so that we can evaluate your previous experience. Follow our [guidance on creating a federal style resume.](https://join.tts.gsa.gov/resume/)
 
-Failure to provide required information may result in disqualification.
+Qualification determinations can’t be made when resumes don’t include the required information. Failure to provide required information may result in disqualification.
 
 For each job on your resume, provide:
-
 - The exact dates you held each job (from month/year to month/year or “present”)
 - Number of hours per week you worked (if part time)
 
-**SPECIALIZED EXPERIENCE REQUIREMENTS:**
+All applications will be reviewed by a panel of subject matter experts against a scoring rubric created for this role. In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume and following our general guidance on creating federal style resume.
 
-To qualify, you must have one (1) year of specialized experience at the next
-lower GS-grade (or equivalent). Specialized experience is defined as follows:
 
-- Experience developing successful product visions and strategies for digital products and services with a focus on the customer experience. 
-- Experience evaluating product feasibility (technical and business), customer value, and business impact with measurable outputs and outcomes
-- Experience leading interdisciplinary, cross-functional, geographically-distributed software development teams using agile software development processes and tools for the delivery of a clear product strategy 
-- Experience managing the interrelationships of software technologies and principles of architecture to ensure the successful deployment and integration of applications and platform
-- Experience managing technologists with varying degrees of experience through coaching, continual feedback, conflict resolution  and other managerial tools and best practices.  
-- Experience leading organizational change for the adoption and implementation of new technology related processes and tools leveraging industry accepted best practices
-- Experience successfully communicating digital technology product visions and plans internally and externally across multiple stakeholders while balancing conflicting priorities and interests
+## How To Apply
 
+Submit a complete online application prior to {{ closes | date: '%l:%M%P %Z ET on %A, %B %e, %Y' }}. Please fill out all applicable fields.
+
+<section class="usa-grid-full">
+  <a class="usa-button usa-button-secondary" href="{{ apply_url }}">Click here to apply</a>
+</section>
+
+**Need Assistance in applying or have questions regarding this job opportunity, please email {{ contact_name }} at** [{{ contact_email }}](mailto:{{ contact_email }}).

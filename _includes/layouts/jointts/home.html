@@ -32,8 +32,8 @@ layout: layouts/default
     </div>
 
     {% assign timenow = "now" | date: "%s" %}
-    {% assign oJobs = jobs | where: "data.state", "open" %}
-    {% assign uJobs = jobs | where: "data.state", "upcoming" %}
+    {% assign oJobs = jobs | where: "data.state", "open" | sort: 'data.title' %}
+    {% assign uJobs = jobs | where: "data.state", "upcoming" | sort: 'data.title' %}
 
     <div class="grid-row grid-gap">
       <div class="desktop:grid-col-8 usa-prose">
@@ -43,7 +43,7 @@ layout: layouts/default
 
           <ul>
             {% for pg in oJobs %}
-              {% assign timeopen = pg.data.opens | date: "%s" %}
+              {% assign timeopen = pg.data.opens | date: "%s" | %}
               {% assign timeclose = pg.data.closes | date: "%s" %}
 
               {% if timenow > timeopen and timenow < timeclose %} <li>
@@ -65,14 +65,24 @@ layout: layouts/default
               <li>
                 <a href="{{ pg.data.permalink | url}}"><h4>{{ pg.data.title }}</h4></a>
                 {% unless pg.data.info_sessions == empty or pg.data.info_sessions == nil %}
-                  <p>Upcoming info sessions for {{pg.data.title}}</p>
-                  <ul>
-                    {% for i in pg.data.info_sessions %}
+                  {% assign future = "" | split: "" %}
+                  {% for i in pg.data.info_sessions %}
+                    {% assign timeinfo = i.date | date: "%s" %}
+                    {% if timenow < timeinfo %}
+                      {% assign future = future | concat: i %}
+                    {% endif %}
+                  {% endfor %}
+
+                  {% if future.length != 0 %}
+                    <p>Upcoming info sessions for {{pg.data.title}}</p>
+                    <ul>
+                    {% for i in future %}
                       <li>
                         <a href="{{i.link}}">{{i.date | date: '%A, %B %e, %Y' }}</a><br>at {{i.time}}
                       </li>
                     {% endfor %}
-                  </ul>
+                    </ul>
+                  {% endif %}
                 {% endunless %}
               </li>
             {% endfor %}
