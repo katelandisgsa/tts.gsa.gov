@@ -37,14 +37,14 @@ services:
   - name: Digital Analytics Program
     link: https://digital.gov/guides/dap/
     link_alt_text: link to DAP website
-    logo: _img/Product_DAP.png
+    logo: _img/Websie_logos_DAP.png
     logo_alt_text: logo not yet available
     category: products
     description: Offering advanced, easy web analytics tools, training, and support
       to help the government make data-driven decisions to improve the digital
       public experience.
   - name: SAM.gov
-    link: https://www.gsa.gov/about-us/organization/federal-acquisition-service/office-of-systems-management/integrated-award-environment-iae/about-samgov
+    link: https://sam.gov/content/home
     link_alt_text: link to About SAM.gov webpage
     logo: _img/logo-sam.svg
     logo_alt_text: SAM.gov
@@ -108,8 +108,8 @@ services:
     logo_alt_text: Made in America
     category: platforms
     description: “Made in America” policies are designed to increase reliance on domestic supply chains and ultimately reduce the need to spend taxpayer dollars on foreign-made goods.
-  - name: Citizenscience.gov
-    link: https://science.gov
+  - name: CitizenScience.gov
+    link: https://www.citizenscience.gov/
     link_alt_text: Citizen science homepage
     logo: _img/Platform_Citizenscience.gov.png
     logo_alt_text: Citizen Science
@@ -122,23 +122,18 @@ services:
     logo: _img/touchpoints-logotype.png
     logo_alt_text: Touchpoints
     category: products
-    description: Offers a simple, flexible, and convenient way to start collecting
-      customer feedback so you can focus on serving customers rather than
-      managing surveys.
-  - name: FedRAMP
+    description: Offering a simple, flexible, and convenient way to start collecting customer feedback so you can focus on serving customers rather than managing surveys.
+  - name: Federal Risk and Authorization Management Program (FedRAMP)
     link: https://www.fedramp.gov/
     link_alt_text: link to FedRAMP homepage
     logo: _img/fedramp-logo.png
     logo_alt_text: FedRamp
     category: products
-    description: Helping agencies avoid spending duplicative funds for
-      security-related costs and saves valuable time by establishing an
-      authorize once, reuse many times IT security program for cloud service
-      offerings.
-  - name: APIData.gov
+    description: Helping agencies avoid spending duplicative funds for security-related costs and saving valuable time by establishing an authorize once, reuse many times IT security program for cloud service offerings.
+  - name: API.data.gov
     link: https://api.data.gov/
     link_alt_text: link to API data homepage
-    logo: _img/data-gov.png
+    logo: _img/Websie_logos_API.png
     logo_alt_text: APIData.gov
     category: products
     description: Saving money and speeding development of federal APIs by offering a
@@ -186,10 +181,10 @@ services:
     description: Fellowship program for early-career technologists to launch
       impactful careers in public service and create a more effective, equitable
       government.
-  - name: Federal Audit Clearinghouse
-    link: https://facweb.census.gov/uploadpdf.aspx
+  - name: Federal Audit Clearinghouse (FAC)
+    link: https://www.fac.gov/
     link_alt_text: link to FAC homepage
-    logo: _img/FAC1.png
+    logo: _img/FAC-logo.png
     logo_alt_text: FAC
     category: platforms
     description: Supporting the collection, distribution, and oversight of audits as
@@ -229,24 +224,14 @@ services:
       and manage federal awards. It contains data on federal contractors,
       including both past performance information and integrity records.
     category: platforms
-  - name: FAPIIS
-    link: https://www.fapiis.gov/fapiis/#/home
-    link_alt_text: link to FAPIIS homepage
-    logo: _img/FAPIIS_logo_grayscale.png
-    logo_alt_text: FAPIIS
-    description: "Entity integrity data and records, entered by government
-      personnel.  FAPIIS records that include things, such as exclusions and
-      proceedings information, are used by Contracting Officers as part of the
-      decision process prior to making awards.  "
-    category: platforms
-  - name: Federal Procurement Data System
+  - name: Federal Procurement Data System (FPDS)
     link: https://www.fpds.gov/fpdsng_cms/index.php/en/
     link_alt_text: FPDS homepage
     logo: _img/fpds_logo.png
     logo_alt_text: Logo not yet available
     description: "A database containing publicly available information about all unclassified contract actions exceeding the micro-purchase threshold and any modifications to those actions that change previously reported data, regardless of dollar value."
     category: products
-  - name: FSRS
+  - name: Federal Subaward Reporting System (FSRS)
     link: https://www.fsrs.gov/
     link_alt_text: link to FSRS homepage
     logo: _img/fsrs.png

@@ -1,5 +1,5 @@
 ---
-title: TTS Services - TTS
+title: Services
 title-header: Services
 layout: layouts/cozy-page
 permalink: "services/"
