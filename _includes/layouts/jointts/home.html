@@ -25,7 +25,7 @@ layout: layouts/default
           </p>
           <p>
             We are accepting applications for the positions listed below. We also post upcoming positions. <a
-              href="{{ site.baseurl }}/newsletter">Join our mailing list</a> to be notified when we post new jobs.
+              href="{{ site.baseurl }}/join/newsletter">Join our mailing list</a> to be notified when we post new jobs.
           </p>
         </div>
       </div>
@@ -39,7 +39,7 @@ layout: layouts/default
       <div class="desktop:grid-col-8 usa-prose">
         <h2 id="open-positions">Open positions</h2>
 
-          <p>We are hiring and will be sharing open jobs and positions as they become available.</p>
+          <p>We are hiring and will be sharing upcoming jobs and open positions as they are available.</p>
 
           <ul>
             {% for pg in oJobs %}
@@ -63,7 +63,7 @@ layout: layouts/default
           <ul>
             {% for pg in uJobs %}
               <li>
-                <a href="{{ pg.data.permalink | url}}"><h4>{{ pg.data.title }}</h4></a>
+                <a href="{{ pg.data.permalink | url}}">{{ pg.data.title }}</a>
                 {% unless pg.data.info_sessions == empty or pg.data.info_sessions == nil %}
                   {% assign future = "" | split: "" %}
                   {% for i in pg.data.info_sessions %}

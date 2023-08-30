@@ -16,7 +16,7 @@ sidenav:
     href: /join/compensation-and-benefits/
   - text: About the Direct Hire Authority
     href: /join/about-the-dha/
-  - text: Newsletter
+  - text: Sign up for job alerts
     href: /join/newsletter/
   - text: Frequently Asked Questions
     href: /join/faq/
@@ -28,7 +28,7 @@ Understanding every section of a federal job posting can help you prepare the st
   <div class="usa-alert-body">
     <h2 class="usa-alert-heading">Looking for information to customize your resume?</h2>
     <p class="usa-alert-text" markdown="1">
-      Be sure to carefully read the Role Summary and Qualifications sections.
+      Be sure to carefully read the <a href="#role-summary">Role Summary</a> and <a href="#qualifications">Qualifications</a> sections.
     </p>
   </div>
 </aside>
@@ -152,6 +152,6 @@ The people evaluating your resume are not allowed to make any assumptions or rev
 </aside>
 
 
-## How To apply
+## How to apply
 
 This section includes information about the documents required for your application and a link to submit your application. If you’re claiming veterans’ preference, this section will list the specific documentation you’ll need to provide.

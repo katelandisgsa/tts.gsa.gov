@@ -1,6 +1,6 @@
 ---
-title: Newsletter - TTS
-title-header: Newsletter
+title: Sign up for job alerts - TTS
+title-header: Sign up for job alerts
 description: We demystify the federal hiring process so you know what to expect. Here's a look at the average time of each stage from application to your first day at TTS.
 layout: layouts/page
 permalink: join/newsletter/
@@ -16,7 +16,7 @@ sidenav:
     href: /join/compensation-and-benefits/
   - text: About the Direct Hire Authority
     href: /join/about-the-dha/
-  - text: Newsletter
+  - text: Sign up for job alerts
     href: /join/newsletter/
   - text: Frequently Asked Questions
     href: /join/faq/
