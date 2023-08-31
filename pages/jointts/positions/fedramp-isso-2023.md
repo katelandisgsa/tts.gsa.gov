@@ -61,23 +61,28 @@ supervisory_status: 'No'
 
 ---
 
-{%- if state == 'upcoming' -%}
-  {{ org }} will soon be accepting applications for GS-{{ gs_level }} - {{ role_name }} roles.
-  {%- if opens == 'tbd' -%} The target date for when these positions will be officially open to application has not yet been determined. If you'd like to be
-  notified when these positions are open, sign up to our [mailing list]({{ site.baseurl }}/newsletter).
-  {%- endif -%}
+## Basic information
+Open to U.S. citizens or nationals (residents of American Samoa and Swains Island). Subject to background check. Full information will be available on USAJOBS.
 
-  {%- unless opens == 'tbd' -%}
-  Applications will be open for submission on {{ opens | date: '%A, %B %e, %Y' }}. Check out [Join TTS Hiring Process]({{site.baseurl}}/hiring-process/) to
-  learn more about the application process.
-  {%- endunless -%}
-{%- endif -%}
+**Supervisory status:** Not Supervisory
 
-## Opportunity overview
+**Number of vacancies:** 3
 
-These opportunities are located in the General Services Administration (GSA), Federal Acquisition Service (FAS), Technology Transformation Services (TTS). TTS applies modern methodologies and technologies to improve the lives of the public and public servants. We help agencies make their services more accessible, efficient, and effective with modern applications, platforms, processes, personnel, and software solutions.
+**Location:** {{ location }}
 
-We will be interviewing and hiring for this role on an ongoing basis and to help navigate the process, we’ve created a [guide](https://join.tts.gsa.gov/rolling-hiring/) to help explain what to expect after submitting your resume.
+**Salary Range:**
+The salary ranges for this position are:
+- GS-13 (${{salary_min}} to ${{salary_max}})
+
+Your salary, including base and locality, will be determined upon selection, dependent on your actual duty location. Please note the maximum salary available for the GS pay system is $183,500. For specific details on locality pay, please visit [OPM’s Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) or for a salary calculator [OPM’s 2023 General Schedule (GS) Salary Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2023/general-schedule-gs-salary-calculator/). You can find more information in our [compensation and benefits section]({{ site.baseurl }}/join/compensation-and-benefits/).
+
+**Travel requirement:** Occasional travel may be required up to 10%-20% per year.
+
+**Work schedule:** Full time.
+
+**Appointment type:** This is a permanent position.
+
+Learn more about the benefits of working at [GSA](https://www.gsa.gov/portal/category/26702) and [TTS]({{ site.baseurl }}/join/compensation-and-benefits/).
 
 ## Role summary
 
@@ -90,10 +95,11 @@ The FedRAMP Program Lead will unite vision and execution to lead an interdiscipl
 - Operates as part of the FedRAMP Cloud Assessment Team supporting program strategy and roadmap, including objectives, goals, and metrics, in support of federal cybersecurity and FedRAMP program policy.
 - Develop a communications strategy and training that includes internal/external government and commercial stakeholders supporting Vulnerability Management program goals and expectations.
 - Identify, proactively monitor and address program risks associated with cybersecurity and vulnerability management within the cloud cybersecurity assessment process.
-### 2. Work with the team to set and meet quality standards for vulnerability management deliverables.
+- Work with the team to set and meet quality standards for vulnerability management deliverables.
 - Make evidence-based program decisions through use of user research, analytics, and other tools.
 - Ensure commercial cloud service providers adhere to federal regulations and standards.
-- Work with agency partners to enable cybersecurity risk management.
+
+### 2. Work with the team to set and meet quality standards for vulnerability management deliverables.
 - Work with partners and stakeholders to operate within established in-house cloud security assessment program.
 - Collaborate with partners to navigate complex bureaucratic relationships to bring stakeholders together around a common program vision and strategy to support the cybersecurity assessment of commercial cloud services..
 - Work with partners to establish relationships with their security, operations, and IT teams that will help sustain the product in the long term.
@@ -104,55 +110,6 @@ The FedRAMP Program Lead will unite vision and execution to lead an interdiscipl
 - Continually seek out new tools that could improve the way we work.
 - Pay attention to well-supported open source product offerings that can be reused in a government context to solve common problems.
 
-
-## Basic information
-
-**Location:**
-{{ location }}
-
-**Salary Range:**
-The salary ranges for this position are:
-- ${{salary_min}} to ${{salary_max}}
-
-Your salary, including base and locality, will be determined upon selection, dependent on your actual duty location.
-
-You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/).
-
-For specific details on locality pay, please visit [OPM's Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) or for a
-salary calculator [OPM's 2022 General Schedule (GS) Salary Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2022/general-schedule-gs-salary-calculator/).
-
-Please note the maximum salary available for the GS pay system is **$183,500**
-
-Note: You may not be eligible for the maximum salary as it is locality dependent. Please refer to the maximum pay for your locality.
-
-**Who May Apply:**
-All United States citizens and nationals (residents of American Samoa and Swains Islands).
-
-**Travel requirement:**
-Occasional travel may be required up to 10%-20% per year.
-
-**Security clearance:**
-Public trust. Background investigation required.
-
-**Work schedule:**
-Full time.
-
-**Appointment type:**
-This is a term limited appointment with the ability to extend for a total of eight years.
-
-**Employee benefits:**
-[Learn more about the benefits we offer.](https://join.tts.gsa.gov/compensation-and-benefits/)
-  - Health insurance (choose from a wide range of plans)
-  - Life insurance coverage with several options
-  - Sick leave and vacation time, including 10 paid holidays per year
-  - Thrift Savings Plan (similar to a 401(k) plan)
-  - Flexible work schedules and telework
-  - Transit and child care subsidies
-  - Training and development
-  - Flexible spending accounts
-  - Long-term care insurance
-  - Training and development
-  - Direct Deposit of salary check to financial organization required.
 
 ## Qualifications
 
@@ -165,6 +122,14 @@ For each job on your resume, provide:
 - Number of hours per week you worked (if part time)
 
 All applications will be reviewed by a panel of subject matter experts against a scoring rubric created for this role. In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume and following our general guidance on creating federal style resume.
+
+### Specialized Experience Reruirements:
+To qualify, you must have one (1) year of specialized experience at the next lower GS-grade (or equivalent). Specialized experience is defined as follows:
+- Experience implementing, evaluating, and assessing cybersecurity and compliance standards, such as International Standards Organization (ISO), Health Insurance Portability and Accountability Act (HIPAA), Security Operations Center (SOC), Payment Card Industry (PCI), National Institute of Standards and Technology (NIST), or FedRAMP.
+- Experience participating in the delivery of a highly complex digital program, product or business
+- Experience building and managing collaborative relationships with a complex set of stakeholders to achieve program goals.
+- Experience in developing organizational cybersecurity policy and practice to further the assessment of complex IT and cloud-based systems.
+
 
 
 ## How To Apply

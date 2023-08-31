@@ -10,6 +10,7 @@ job_post_type: usajobs
 
 # INSTRUCTIONS UPCOMING: These fields are required for upcoming
 role_name: Vulnerability Management & Continuous Monitoring
+offical_title: 'Information Technology Specialist (SYSANALYSIS)'
 opens: '2023-12-01 09:00'
 closes: '2023-12-22 23:59'
 weeks_open: 52
@@ -50,23 +51,35 @@ supervisory_status: 'No'
 
 ---
 
-{%- if state == 'upcoming' -%}
-  {{ org }} will soon be accepting applications for GS-{{ gs_level }} - {{ role_name }} roles.
-  {%- if opens == 'tbd' -%} The target date for when these positions will be officially open to application has not yet been determined. If you'd like to be
-  notified when these positions are open, sign up to our [mailing list]({{ site.baseurl }}/newsletter).
-  {%- endif -%}
+## Basic information
 
-  {%- unless opens == 'tbd' -%}
-  Applications will be open for submission on {{ opens | date: '%A, %B %e, %Y' }}. Check out [Join TTS Hiring Process]({{site.baseurl}}/hiring-process/) to
-  learn more about the application process.
-  {%- endunless -%}
-{%- endif -%}
+**Supervisory status:** Supervisory
+
+**Official title in USAJOBS:** {{ offical_title }}
+
+**Number of vacancies**: 4
+
+**Location:** {{ location }}
+
+**Salary Range:** The salary ranges for this position are:
+- GS-14 (${{salary_min}} to ${{salary_max}})
+
+Your salary, including base and locality, will be determined upon selection, dependent on your actual duty location. Please note the maximum salary available for the GS pay system is $183,500. For specific details on locality pay, please visit [OPM’s Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) or for a salary calculator [OPM’s 2023 General Schedule (GS) Salary Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2023/general-schedule-gs-salary-calculator/). You can find more information in our [compensation and benefits section](https://join.tts.gsa.gov/compensation-and-benefits/).
+
+**Travel requirement:** Occasional travel may be required up to 10%-20% per year.
+
+**Work schedule:** Full time.
+
+**Appointment type:** This is a term appointment. Initial appointments are made lasting longer than 1 year, but not to exceed 4 years. GSA, may extend an appointment up to 4 additional years. No individual hired under this DHA can serve in excess of 8 years with GSA, and cannot be transferred to positions that are not IT positions.
+
+Learn more about the benefits of working at [GSA](https://www.gsa.gov/portal/category/26702) and [TTS]({{ site.baseurl }}/join/compensation-and-benefits/).
 
 ## Opportunity overview
 
 These opportunities are located in the General Services Administration (GSA), Federal Acquisition Service (FAS), Technology Transformation Services (TTS). TTS applies modern methodologies and technologies to improve the lives of the public and public servants. We help agencies make their services more accessible, efficient, and effective with modern applications, platforms, processes, personnel, and software solutions.
 
 We will be interviewing and hiring for this role on an ongoing basis and to help navigate the process, we’ve created a [guide](https://join.tts.gsa.gov/rolling-hiring/) to help explain what to expect after submitting your resume.
+
 
 ## Role summary
 
@@ -91,26 +104,6 @@ The American people deserve to trust that their government is effectively securi
 - Continually seek out new tools that could improve the way we work.
 - Pay attention to well-supported open source product offerings that can be reused in a government context to solve common problems.
 
-
-## Basic information
-
-**Location:**
-{{ location }}
-
-**Salary Range:**
-The salary ranges for this position are:
-- ${{salary_min}} to ${{salary_max}}
-
-Your salary, including base and locality, will be determined upon selection, dependent on your actual duty location.
-
-You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/).
-
-For specific details on locality pay, please visit [OPM's Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) or for a
-salary calculator [OPM's 2022 General Schedule (GS) Salary Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2022/general-schedule-gs-salary-calculator/).
-
-Please note the maximum salary available for the GS pay system is **$183,500**
-
-Note: You may not be eligible for the maximum salary as it is locality dependent. Please refer to the maximum pay for your locality.
 
 **Who May Apply:**
 All United States citizens and nationals (residents of American Samoa and Swains Islands).
