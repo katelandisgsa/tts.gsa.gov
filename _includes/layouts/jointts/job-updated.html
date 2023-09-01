@@ -43,32 +43,14 @@ layout: layouts/default
       </div>
       {% endif %}
       <div class="grid-row grid-gap padding-top-4">
-
-        <div class="desktop:grid-col-4 desktop:margin-top-0" style="order:1">
-        {% if sortedinfosessions.size > 0 %}
-          <div class="usa-summary-box">
-            <div class="usa-summary-box__body">
-              <h3 class="usa-summary-box__heading">
-                Attend an information session
-              </h3>
-              <div class="usa-summary-box__text" markdown="1">
-                Attend an information session to learn more about these roles, working at TTS, and our application process. Register for a session using the Eventbrite links below.
-                <ul>
-                {% for session in sortedinfosessions %}
-                <li><a href="{{session.link}}">{{role_name}} Info Session</a>, {{session.date | date: "%A, %B %d,"}} at {{session.time}}</li>
-                {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-        {% endif %}
-        </div>
-
         <div class="desktop:grid-col-8 usa-prose" markdown="1">
             {{ content }}
         </div>
+        <div class="sidebar desktop:grid-col-4 desktop:margin-top-0" style="order:1"></div>
       </div>
       </div>
     </div>
   </div>
 </section>
+
+<script src="{{ assetPaths['in-page-nav.js'] }}"></script>
