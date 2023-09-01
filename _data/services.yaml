@@ -189,7 +189,7 @@ services:
     category: platforms
     description: Supporting the collection, distribution, and oversight of audits as
       guided by the Single Audit Act.
-  - name: US Web Design System (USWDS)
+  - name: U.S. Web Design System (USWDS)
     link: https://designsystem.digital.gov/
     link_alt_text: link to USWDS homepage
     logo: _img/uswds-lg-on-white.svg

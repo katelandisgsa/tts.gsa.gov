@@ -40,10 +40,9 @@ Thank you for your interest in a position with TTS! Below you will find some of 
 
 ### Can I set up a call with a TTS recruiter to learn more about working at TTS?
 - Although we cannot set up 1:1 calls with prospective candidates, we do host monthly information sessions that include plenty of time to answer questions. [You can find a list of our upcoming sessions here]({{ site.baseurl }}/join). 
-- You can also find info on [Working at TTS]({{ site.baseurl }}/working-at-tts/) and a [description of our offices]({{ site.baseurl }}/tts-offices/).
 
 ### Where can I find your open positions?   
-- All of our [open and upcoming roles are posted here]({{ site.baseurl }}/join). You can also [subscribe to our mailing list]({{ site.baseurl }}/newsletter/) if you would like to be notified when new roles open.
+- All of our [open and upcoming roles are posted here]({{ site.baseurl }}/join). You can also [subscribe to our mailing list]({{ site.baseurl }}/join/newsletter/) if you would like to be notified when new roles open.
 
 ### What if I don’t see any roles posted that I’m eligible for?
 - We recommend you [sign up for job alerts]({{ site.baseurl }}/join/newsletter/) to stay in the loop for any future openings that may align with your experience and interests. 

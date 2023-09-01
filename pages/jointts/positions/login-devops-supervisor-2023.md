@@ -62,15 +62,15 @@ supervisory_status: 'No'
 ## Basic information
 Open to U.S. citizens or nationals (residents of American Samoa and Swains Island). Subject to background check. Full information will be available on USAJOBS.
 
-**Supervisory status:** Not Supervisory
+**Supervisory status:** Supervisory
 
-**Number of vacancies:** 3
+**Number of vacancies:** 1
 
 **Location:** {{ location }}
 
 **Salary Range:**
 The salary ranges for this position are:
-- GS-13 (${{salary_min}} to ${{salary_max}})
+- GS-15 (${{salary_min}} to ${{salary_max}})
 
 Your salary, including base and locality, will be determined upon selection, dependent on your actual duty location. Please note the maximum salary available for the GS pay system is $183,500. For specific details on locality pay, please visit [OPM’s Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) or for a salary calculator [OPM’s 2023 General Schedule (GS) Salary Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2023/general-schedule-gs-salary-calculator/). You can find more information in our [compensation and benefits section]({{ site.baseurl }}/join/compensation-and-benefits/).
 
