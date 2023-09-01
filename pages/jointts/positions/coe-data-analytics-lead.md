@@ -65,7 +65,7 @@ Open to U.S. citizens or nationals (residents of American Samoa and Swains Islan
 
 **Salary Range:**
 The salary ranges for this position are:
-- GS-14 ${{salary_min}} to ${{salary_max}}
+- GS-15 ${{salary_min}} to ${{salary_max}}
 
 Your salary, including base and locality, will be determined upon selection, dependent on your actual duty location. Please note the maximum salary available for the GS pay system is $183,500. For specific details on locality pay, please visit [OPM's Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) or for a salary calculator [OPM's 2023 General Schedule (GS) Salary Calculator](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2023/general-schedule-gs-salary-calculator/). You can find more information about this in the [compensation and benefits section on our site]({{ site.baseurl }}/join/compensation-and-benefits/).
 
@@ -75,9 +75,7 @@ Occasional travel may be required up to 10%-20% per year.
 **Work schedule:**
 Full time.
 
-Learn more about the benefits of working at
-[GSA](https://www.gsa.gov/portal/category/26702) and
-[TTS]({{ site.baseurl }}/join/compensation-and-benefits/).
+Learn more about the benefits of working at [GSA](https://www.gsa.gov/portal/category/26702) and [TTS]({{ site.baseurl }}/join/compensation-and-benefits/).
 
 ## Role summary
 
