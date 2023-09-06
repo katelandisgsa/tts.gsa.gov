@@ -46,10 +46,36 @@ layout: layouts/default
               {% assign timeopen = pg.data.opens | date: "%s" | %}
               {% assign timeclose = pg.data.closes | date: "%s" %}
 
-              {% if timenow > timeopen and timenow < timeclose %} <li>
-                <a href="{{ pg.data.permalink | url}}">{{ pg.data.title }}</a> (Open {% if pg.data.weeks_open %}for {% if
+              {% if timenow > timeopen and timenow < timeclose %} 
+                <li>
+                  <a href="{{ pg.data.permalink | url}}">{{ pg.data.title }}</a> (Open {% if pg.data.weeks_open %}for {% if
                 pg.data.weeks < 52 %}{{ pg.data.weeks }}{% else %} one year or until all selections have been made{% endif
-                  %},{% endif %} through {{ pg.data.closes | date: '%A, %B %e, %Y at %l:%M%P' }} Eastern) </li>
+                  %},{% endif %} through {{ pg.data.closes | date: '%A, %B %e, %Y at %l:%M%P' }} Eastern) 
+                </li>
+                
+                {% unless pg.data.info_sessions == empty or pg.data.info_sessions == nil %}
+                {% assign future = "" | split: "" %}
+                {% for i in pg.data.info_sessions %}
+                  {% assign timeinfo = i.date | date: "%s" %}
+                  {% if timenow < timeinfo %}
+                    {% assign future = future | concat: i %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if future.length != 0 %}
+                  <p>Upcoming info sessions for {{pg.data.title}}</p>
+                  <ul>
+                  {% for i in future %}
+                    <li>
+                      <a href="{{i.link}}">{{i.date | date: '%A, %B %e, %Y' }}</a><br>at {{i.time}}
+                    </li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
+              {% endunless %}
+
+
+
               {% endif %}
             {% endfor %}
           </ul>
